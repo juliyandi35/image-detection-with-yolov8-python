@@ -1,0 +1,16 @@
+train: train/images/
+val: valid/images/
+# test: ../test/images
+
+nc: 4
+names: ['helm', 'motor', 'tanpa helm', 'plat']
+
+train_labels: train/labels/
+val_labels: valid/labels/
+
+roboflow:
+  workspace: oriorio
+  project: violation-detection-t5bf9
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/oriorio/violation-detection-t5bf9/dataset/1
